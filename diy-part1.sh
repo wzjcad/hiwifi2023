@@ -12,7 +12,7 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-
+sed -i 's/^#\(https://github.com/openwrt/luci)/\1.git/' feeds.conf.default
 # Add a feed source
 #echo 'src-git luci https://github.com/openwrt/luci.git' >>feeds.conf.default
 echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
